@@ -18,7 +18,8 @@
         android:layout_marginBottom="0dp"
         android:background="#01247C"
         android:backgroundTint="#000080"
-        android:textSize="20dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
         android:text="Add"
         android:textStyle="bold" />
 
@@ -34,7 +35,7 @@
         android:layout_marginBottom="0dp"
         android:layout_toStartOf="@+id/btnAdd"
         android:ems="10"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         android:hint="Add an item here!"
         android:textColor="#0C0A0A" />
@@ -49,5 +50,8 @@
         android:layout_centerInParent="true"
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
-        android:layout_marginBottom="0dp" />
+        android:layout_marginBottom="0dp"
+        android:textColor="#FF000000"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 </RelativeLayout>

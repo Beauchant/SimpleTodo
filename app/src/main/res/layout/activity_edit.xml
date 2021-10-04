@@ -6,6 +6,9 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/lightblue"
+    android:textColor="#0C0A0A"
+    android:textStyle="bold"
+    android:textSize="20sp"
     tools:context=".EditActivity">
 
     <EditText
@@ -17,7 +20,8 @@
         android:layout_marginStart="0dp"
         android:layout_marginTop="0dp"
         android:textColor="#0C0A0A"
-        android:textSize="20dp"       android:textStyle="bold"
+        android:textSize="20sp"
+        android:textStyle="bold"
         android:ems="10"
         android:hint="Update the item" />
 
@@ -32,6 +36,6 @@
         android:text="Save"
         android:background="@color/darkblue"
         android:textColor="#FFFFFF"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold" />
 </RelativeLayout>
